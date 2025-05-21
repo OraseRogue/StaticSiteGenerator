@@ -40,6 +40,7 @@ class TestTextNode(unittest.TestCase):
         self.assertEqual(node.__repr__(), "TextNode(This is a text node, bold, None)")
         self.assertEqual(node2.__repr__(), "TextNode(This is a text node, link, http://google.com)")
 
+        
 
 
 if __name__ == "__main__":
